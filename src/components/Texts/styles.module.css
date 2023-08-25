@@ -1,0 +1,29 @@
+.textPurple{
+    font-size: 18px;
+    color: #24053e;
+}
+.secundaryPurple{
+    font-size: 32px;
+    color: #24053e ;
+}
+
+.principal{
+    width: 50%;
+    font-size: 80px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.textDecoration{
+    color: #ffffff;
+    border-bottom: 3px #44ffa1 solid ;
+}
+
+.textNav{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.textNav:hover{
+    border-bottom: 2px #44ffa1 solid ;
+}
