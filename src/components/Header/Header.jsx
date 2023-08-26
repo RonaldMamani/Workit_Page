@@ -1,6 +1,5 @@
 import Logo from "../../assets/images/logo-light.svg"
 import TextNav from "../Texts/TextNav"
-import TextDecoration from "../Texts/TextNav"
 
 export default function Header() {
     return (

@@ -5,7 +5,6 @@ import TextPurple from '../components/Texts/TextPurple';
 
 import styles from "./styles.module.css"
 import PrincipalTextWhite from '../components/Texts/PrincipalTextWhite';
-import TextDecoration from '../components/Texts/TextNav';
 
 export default function SectionOne() {
     return (

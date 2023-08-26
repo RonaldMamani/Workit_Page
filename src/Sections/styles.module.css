@@ -9,6 +9,7 @@
 }
 .containerItem{ 
     align-items: center;
+    text-align: center;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -23,18 +24,25 @@
     width: 50%;
 }
 
+.Benefits{
+    display: flex;
+    flex-direction: column;
+}
+
 .Comments{
     background-image: url(../assets/images/commentDesk.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 4rem;
+    padding: 3rem;
     text-align: start;
     align-items: start;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
-    width: 65%;
+    gap: 1.5rem;
+    position: absolute;
+    top: 30%;
+    left: 32%;
 }
 
 .Comments button {
@@ -42,5 +50,55 @@
 }
 
 .avatar{
-    width: 35%;
+    width: 40%;
+}
+
+@media (max-width: 769px) {
+    .SectionOne{
+        background-image: url(../assets/images/bgTablet.png);
+        height: 105vh;
+    }
+    .containerItem h2{
+        width: 85%;
+    }
+    .img{
+        margin-top: 2.5rem;
+        width: 65%;
+    }
+    .avatar{
+        width: 50%;
+    }
+    .Comments{
+        top: 45%;
+        left: 30%;
+        padding: 2rem;
+    }
+    .Comments button{
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .SectionOne{
+        background-image: url(../assets/images/bgMobile.png);
+        height: 85vh;
+    }
+    .containerItem h2{
+        width: 100%;
+        font-size: 45px;
+    }
+    .img{
+        margin-top: 3rem;
+        width: 80%;
+    }
+    .avatar{
+        width: 100%;
+    }
+    .Comments{
+        top: 65%;
+        left: 0;
+        padding: .5rem;
+        text-align: center;
+        align-items: center;
+    }
 }

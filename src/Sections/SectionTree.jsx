@@ -8,13 +8,15 @@ import styles from "./styles.module.css"
 
 export default function SectionTree() {
     return (
-        <section className="container d-flex mt-5">
-            <img src={Avatar} alt="Avatar de Cliente" className={styles.avatar} />
-            <div className={styles.Comments}>
-                <SecundaryTextWhite text="Be the first to test" />
-                <TextWhite text="Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta tester for our app and kickstart your company. Apply for access below and I’ll be in touch to schedule a call." />
-                <Button variant="outline-success">Apply for access</Button>{" "}
+        <div className="container mt-5 mb-5 w-75">
+            <div className="position-relative d-flex pb-5">
+                <img src={Avatar} alt="Avatar de Cliente" className={styles.avatar} />
+                <div className={styles.Comments}>
+                    <SecundaryTextWhite text="Be the first to test" />
+                    <TextWhite text="Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta tester for our app and kickstart your company. Apply for access below and I’ll be in touch to schedule a call." />
+                    <Button variant="outline-success">Apply for access</Button>{" "}
+                </div>
             </div>
-        </section>
+        </div>
     );
 }
