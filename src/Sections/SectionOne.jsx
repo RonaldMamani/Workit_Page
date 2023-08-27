@@ -1,7 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Header from '../components/Header/Header';
 import Phone from "../assets/images/image-hero.webp"
-import TextPurple from '../components/Texts/TextPurple';
 
 import styles from "./styles.module.css"
 import PrincipalTextWhite from '../components/Texts/PrincipalTextWhite';

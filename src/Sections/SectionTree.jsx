@@ -8,7 +8,7 @@ import styles from "./styles.module.css"
 
 export default function SectionTree() {
     return (
-        <div className="container mt-5 mb-5 w-75">
+        <div className={styles.SectionTree}>
             <div className="position-relative d-flex pb-5">
                 <img src={Avatar} alt="Avatar de Cliente" className={styles.avatar} />
                 <div className={styles.Comments}>

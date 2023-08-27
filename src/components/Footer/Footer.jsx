@@ -5,7 +5,7 @@ import Twitter from "../../assets/images/icon-twitter.svg"
 
 export default function Footer() {
     return (
-        <div className="container text-center mt-5">
+        <div className="container text-center mb-5">
             <img src={Logo} alt="Logotipo do Workit" className="" />
             <div className="icons d-flex justify-content-center gap-3 mt-5">
                 <img src={Facebook} alt="Rede Social Facebook" className="icon" />
